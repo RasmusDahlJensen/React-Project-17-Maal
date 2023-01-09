@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+
+body {
+	margin: 0;
+}
+
+h1,
+h2 {
+	font-family: "Oswald", sans-serif;
+}
+
+p,
+a,
+h3,
+button {
+	font-family: "Roboto Condensed", sans-serif;
+}
+
+figure,
+h1,
+h2,
+h3,
+ul,
+li {
+	margin: 0;
+	padding: 0;
+}

@@ -2,6 +2,7 @@ import "./App.scss";
 import { Header } from "./components/partials/Header/Header";
 
 
+
 function App() {
 	return (
 		<div className="App">
