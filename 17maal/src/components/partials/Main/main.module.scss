@@ -1,0 +1,14 @@
+main {
+	max-width: 1000px;
+	margin: auto;
+	margin-top: 5%;
+}
+
+.articleFlex {
+	display: flex;
+	gap: 2%;
+	margin-top: 5%;
+	article {
+		width: 50%;
+	}
+}

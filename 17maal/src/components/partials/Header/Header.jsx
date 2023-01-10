@@ -3,7 +3,7 @@ import styles from "./header.module.scss";
 
 export const Header = () => {
 	return (
-		<header>
+		<header id="Top">
 			<div className={styles.headerContent}>
 				<div className={styles.headerFlex}>
 					<figure>
@@ -13,7 +13,7 @@ export const Header = () => {
 						/>
 					</figure>
 					<div>
-						<h1 >THE GLOBAL GOALS</h1>
+						<h1>THE GLOBAL GOALS</h1>
 						<h2>For sustainable Development</h2>
 					</div>
 				</div>

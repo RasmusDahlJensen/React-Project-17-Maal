@@ -1,0 +1,18 @@
+h3 {
+	color: #6699cc;
+	font-size: 2rem;
+	font-weight: 400;
+}
+
+.titleandbtn {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	a {
+		color: #000000;
+		font-weight: 600;
+	}
+	a:hover {
+		color: #000000b1;
+	}
+}

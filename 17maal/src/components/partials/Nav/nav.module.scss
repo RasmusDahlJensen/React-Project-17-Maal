@@ -1,0 +1,16 @@
+.flex {
+	display: flex;
+	justify-content: flex-end;
+	gap: 2%;
+	margin: 2% 10% 0 0;
+	li {
+		list-style: none;
+	}
+	a {
+		text-decoration: none;
+		color: #cccccc;
+	}
+	li :hover {
+		color: #0066cc;
+	}
+}
