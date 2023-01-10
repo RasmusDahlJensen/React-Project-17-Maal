@@ -1,0 +1,42 @@
+footer {
+	margin-top: 4%;
+	padding: 2% 2% 0 2%;
+	background-color: #000000;
+	figure {
+		width: 20%;
+		margin-left: 15%;
+	}
+	img {
+		width: 100%;
+	}
+}
+
+.footertext {
+	display: flex;
+	width: 80%;
+	display: flex;
+	justify-content: space-between;
+	h3 {
+		color: #6699cc;
+		font-size: 2rem;
+		font-weight: 400;
+	}
+	a {
+		color: #cccccc;
+		font-size: 1.3rem;
+		text-decoration: none;
+		font-weight: 300;
+	}
+	a:hover {
+		color: #cccccca9;
+	}
+	li {
+		margin: 1% 0 5% 0;
+	}
+}
+
+.footercontainer {
+	max-width: 1000px;
+	margin: auto;
+	display: flex;
+}

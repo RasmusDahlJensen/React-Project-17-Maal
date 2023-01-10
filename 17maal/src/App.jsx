@@ -1,6 +1,8 @@
 import "./App.scss";
 import { Header } from "./components/partials/Header/Header";
 import { Main } from "./components/partials/Main/Main";
+import { Form } from "./components/partials/Form/Form";
+import { Footer } from "./components/partials/Footer/Footer";
 
 function App() {
 	return (
@@ -10,6 +12,12 @@ function App() {
 			</div>
 			<div>
 				<Main />
+			</div>
+			<div>
+				<Form />
+			</div>
+			<div>
+				<Footer />
 			</div>
 		</div>
 	);

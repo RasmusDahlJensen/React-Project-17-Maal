@@ -3,7 +3,7 @@ import { Button } from "../BackToTop/BackToTop";
 
 export const SingleArticle = (props) => {
 	return (
-		<article>
+		<article className={styles.singleArticle}>
 			<div className={styles.titleandbtn}>
 				<h3>{props.title}</h3>
 				<Button />

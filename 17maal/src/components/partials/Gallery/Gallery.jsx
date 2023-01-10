@@ -1,3 +1,5 @@
+import styles from "./gallery.module.scss";
+
 const galleryArr = [
 	"Goal-No-Poverty.png",
 	"Goal-No-Hunger.png",
@@ -21,7 +23,7 @@ const galleryArr = [
 
 export const Gallery = () => {
 	return (
-		<div>
+		<div className={styles.gallery}>
 			{galleryArr.map((value, key) => {
 				console.log(value);
 				return (

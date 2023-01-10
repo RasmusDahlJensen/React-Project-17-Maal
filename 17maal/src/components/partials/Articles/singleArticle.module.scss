@@ -16,3 +16,27 @@ h3 {
 		color: #000000b1;
 	}
 }
+
+.ArticleNoBtn {
+	p {
+		font-size: 1.2rem;
+	}
+}
+
+.singleArticle {
+	p {
+		font-size: 1.6rem;
+	}
+}
+
+article {
+	margin-top: 2%;
+}
+
+.pictureArticle {
+	display: flex;
+	img {
+		width: 475px;
+		padding-left: 5%;
+	}
+}

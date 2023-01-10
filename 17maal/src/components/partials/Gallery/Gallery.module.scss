@@ -1,0 +1,14 @@
+.gallery {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+	justify-content: center;
+	margin: 5% 0 7% 0%;
+	img {
+		width: 155px;
+		transition: 0.1s;
+	}
+	img:hover {
+		transform: scale(1.1);
+	}
+}
